@@ -23,7 +23,10 @@
 
 #let item(name_zh, name_en, emoji: none) = box[
   #item_counter.step()
-  #zh_text(14pt)[#name_zh #h(1fr) #emoji] \
+  #zh_text(14pt)[
+    #name_zh #h(1fr)
+    // #emoji
+  ] \
   #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]
 ]
 
