@@ -143,6 +143,7 @@
 - #item[苹果脆片][Apple Chips]
 
 #cuisine[甜点][Desserts]
+- #item[香蕉派][Banana Pie]
 - #item[戚风蛋糕][Chiffon Cake]
 - #item[蓝莓山药][Blueberry Yam]
 

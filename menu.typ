@@ -19,7 +19,10 @@
   #v(.2em)
 ]
 
+#let item_counter = counter("item")
+
 #let item(name_zh, name_en, emoji: none) = box[
+  #item_counter.step()
   #zh_text(14pt)[#name_zh #h(1fr) #emoji] \
   #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]
 ]
@@ -51,6 +54,12 @@
     stroke: 1pt + nord3
   )
   let frame_vert_line_dy = frame.dy + frame_font_size + .5em
+
+  let frame_horiz_line = line(
+    length: column_width - 2 * (frame.dx + frame_font_size) - .6em,
+    stroke: 1pt + nord3
+  )
+  let frame_horiz_line_dx = frame.dx + frame_font_size + .3em
   
   let seperator_vert_line = line(
     length: page_height,
@@ -86,13 +95,21 @@
               dx: - (offset_xr + 2 * frame.dx) + 4pt,
               dy: frame_vert_line_dy,
               frame_vert_line)
+        place(top + left,
+              dx: offset_xl + frame_horiz_line_dx,
+              dy: frame.dy + 4pt,
+              frame_horiz_line)
         place(bottom + left,
-            dx: offset_xl + 0.5 * column_width,
-            dy: - frame.dy,
-            context([
-              #let num = (counter(page).get().at(0) - 1) * 3 + i
-              #if num != 0 { en_text(10pt, style: "normal")[#num] }
-            ]))
+              dx: offset_xl + frame_horiz_line_dx,
+              dy: - frame.dy + 4pt,
+              frame_horiz_line)
+        place(bottom + left,
+              dx: offset_xl + 0.5 * column_width,
+              dy: - frame.dy - 1em,
+              context([
+                #let num = (counter(page).get().at(0) - 1) * 3 + i
+                #if num != 0 { en_text(10pt, style: "normal")[#numbering("I", num)] }
+              ]))
       }
     ]
   )
@@ -104,13 +121,24 @@
     #v(30pt)
     #image("title.png")
     #v(60pt)
-    #if update_time != none [
-      #zh_text(10pt)[更新于：#update_time.display("[year]年[month padding:none]月[day padding:none]日") ] \ 
-      #en_text(8pt)[Updated on #update_time.display("[month repr:long] [day], [year]")]
+    #context [
+      #let num_items = item_counter.final().at(0)
+      #if update_time != none [
+        #zh_text(10pt)[
+          // 共 #num_items 道菜；
+          更新于：#update_time.display("[year]年[month padding:none]月[day padding:none]日") ] \ 
+        #en_text(8pt)[
+          // #num_items dishes in total;
+          Updated on #update_time.display("[month repr:long] [day], [year]")]
+      ]
     ]
     #colbreak()
   ]
 
+  let end_page = [
+    #colbreak(weak: true)
+  ]
+
   set list(marker: [#v(.8em)#en_text(16pt, fill: nord3)[☐]])
-  columns(num_columns, gutter: frame.dx * 2 + 4em)[#title_page #doc]
+  columns(num_columns, gutter: frame.dx * 2 + 4em)[#title_page #doc #end_page]
 }
