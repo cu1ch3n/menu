@@ -10,10 +10,6 @@ jobs:
           cache-dependency-path: requirements.typ
       # Now Typst is installed and packages will be cached!
       - run: typst compile main.typ output/menu.pdf --font-path fonts
-      - uses: actions/upload-artifact@v4
-        with:
-          name: menu
-          path: menu.pdf
       - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
