@@ -10,6 +10,7 @@ jobs:
           cache-dependency-path: requirements.typ
       # Now Typst is installed and packages will be cached!
       - run: typst compile main.typ output/menu.pdf --font-path fonts
+      - run: rm output/DUMMY
       - uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
@@ -17,4 +18,3 @@ jobs:
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: output
-          destination-dir: menu
