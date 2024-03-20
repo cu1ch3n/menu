@@ -84,8 +84,6 @@
 - #item[西红柿蛋花汤][Tomato Egg Soup]
 - #item[枸杞叶瘦肉汤][Wolfberry Leaves & Pork Liver Soup]
 
-#colbreak()
-
 #cuisine[海鲜烧烤][Sea Food & Grills]
 - #item[水煮虾][Poached Shrimp]
 - #item[蒜蓉炒大虾][Shrimp Stir-Fry w/ Garlic]
