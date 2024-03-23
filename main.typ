@@ -127,6 +127,7 @@
 - #item(emoji: peper())[呛毛肚][Cold Spicy Beef Omasum Tripe]
 - #item[凉拌苦菊][Endive Salad]
 - #item[凉拌黄瓜][Shredded Cucumber w/ Sauce]
+- #item[皮蛋豆腐][Chilled Tofu w/ Century Egg]
 
 #cuisine[面食][Dumplings & Noodles]
 - #item[猪肉大葱水饺][Jiaozi Stuffed w/ Pork & Scallion]
