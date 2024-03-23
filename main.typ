@@ -135,6 +135,7 @@
 - #item[红烧牛肉面][Braised Beef Noodle Soup]
 - #item[潍坊大虾面][Weifang Shrimp Noodles]
 - #item[葱油拌面][Scallion Oil Noodles]
+- #item[豆角焖面][Braised Noodles w/ Green Beans]
 
 #cuisine[小食][Snacks]
 - #item[薯条][French Fries]
