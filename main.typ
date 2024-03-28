@@ -45,6 +45,7 @@
 - #item[香煎带鱼][Pan-fried Beltfish]
 - #item[清蒸鲈鱼][Steamed Sea Bass]
 - #item[炸河虾][Fried Shrimps]
+- #item[粉蒸肉][Steamed Pork w/ Rice Flour]
 
 #cuisine[家常菜][Home-style Cuisine]
 - #item[豆腐脑][Douhua]
