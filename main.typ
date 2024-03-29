@@ -129,6 +129,7 @@
 - #item[凉拌苦菊][Endive Salad]
 - #item[凉拌黄瓜][Shredded Cucumber w/ Sauce]
 - #item[皮蛋豆腐][Chilled Tofu w/ Century Egg]
+- #item[香干马兰头][Mixed Kalimeris Indica w/ Tofu]
 
 #cuisine[面食][Dumplings & Noodles]
 - #item[猪肉大葱水饺][Jiaozi Stuffed w/ Pork & Scallion]
