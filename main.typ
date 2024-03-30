@@ -116,6 +116,7 @@
 - #item(emoji: peper())[泰式酸辣鸡爪][Thai Cold Chicken Feet Salad]
 - #item[蒜蓉通心菜][Water Spinach Stir-Fry w/ Garlic]
 - #item[柠檬鸡胸肉 (融合菜)][Lemon Chicken Breast (Fusion Cuisine)]
+- #item[冬阴功][Tom Yum Goong]
 
 #cuisine[西餐][Western Cuisine]
 - #item[西冷牛排][Sirloin Steak]
