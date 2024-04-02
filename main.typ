@@ -1,4 +1,4 @@
-#import "menu.typ": *
+#import "lib/menu.typ": *
 
 #show: doc => conf(
   title: [Chen's Private Cuisine],
