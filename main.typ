@@ -1,12 +1,9 @@
-#import "lib/caidan.typ": *
+#import "@preview/caidan:0.1.0": *
 
 #show: caidan.with(
   title: [#en_text(22pt, fill: nord0)[Chen's Private Cuisine]],
   cover_image: image("cover.png"),
   update_date: datetime.today(),
-  page_height: 595.28pt,
-  page_width: 841.89pt,
-  num_columns: 3,
 )
 
 #cuisine[鲁菜][Shandong Cuisine]
