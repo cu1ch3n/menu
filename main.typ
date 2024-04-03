@@ -3,7 +3,7 @@
 #show: caidan.with(
   title: [#en_text(22pt, fill: nord0)[Chen's Private Cuisine]],
   cover_image: image("cover.png"),
-  update_time: datetime.today(),
+  update_date: datetime.today(),
   page_height: 595.28pt,
   page_width: 841.89pt,
   num_columns: 3,

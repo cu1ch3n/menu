@@ -33,7 +33,7 @@
 #let caidan(
   title: none,
   cover_image: none,
-  update_time: none,
+  update_date: none,
   page_height: 595.28pt,
   page_width: 841.89pt,
   num_columns: 3,
@@ -162,13 +162,13 @@
           cover_image
         }
       }
-      #if update_time != none {
+      #if update_date != none {
         v(5em)
         zh_text(10pt)[
-          更新于：#update_time.display("[year]年[month padding:none]月[day padding:none]日") ]
+          更新于：#update_date.display("[year]年[month padding:none]月[day padding:none]日") ]
         linebreak()
         en_text(8pt)[
-          Updated on #update_time.display("[month repr:long] [day], [year]")]
+          Updated on #update_date.display("[month repr:long] [day], [year]")]
       }
     ]
     #let text_dy = (page_height - measure(title_content).height) / 2 - frame.dy - 2em
