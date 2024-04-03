@@ -8,7 +8,7 @@
 )[#body]
 
 #let zh_text(size, body, fill: nord0) = text(
-  font: "STKaiti",
+  font: "LXGW WenKai",
   size: size,
   fill: fill,
 )[#body]
@@ -172,8 +172,10 @@
       }
     ]
     #let text_dy = (page_height - measure(title_content).height) / 2 - frame.dy - 2em
-    #v(text_dy)
-    #title_content
+    #if title != none or cover_image != none or update_date != none {
+      v(text_dy)
+      title_content
+    }
   ]
 
   let end_page = [
