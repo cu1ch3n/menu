@@ -21,14 +21,8 @@
   #v(.3em)
 ]
 
-#let item_counter = counter("item")
-
-#let item(name_zh, name_en, emoji: none) = box[
-  #item_counter.step()
-  #zh_text(14pt)[
-    #name_zh #h(1fr)
-    // #emoji
-  ] \
+#let item(name_zh, name_en) = box[
+  #zh_text(14pt)[#name_zh #h(1fr)] \
   #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]#v(.3em)
 ]
 
@@ -136,24 +130,22 @@
           bottom + left,
           dx: offset_xl + 0.5 * column_width,
           dy: -frame.dy - 1em,
-          context (
-            [
-              #let num = (counter(page).get().at(0) - 1) * 3 + i
-              #if num != 0 {
-                en_text(10pt, style: "normal")[#numbering("I", num)]
-              }
-            ]
-          ),
+          context {
+            let num = (counter(page).get().at(0) - 1) * 3 + i
+            if num != 0 {
+              en_text(10pt, style: "normal")[#numbering("I", num)]
+            }
+          },
         )
       }
     ],
   )
 
-  let title_page = context [
-    #set align(center)
-    #let title_content = [
-      #title
-      #if cover_image != none {
+  let title_page = context {
+    set align(center)
+    let title_content = {
+      title
+      if cover_image != none {
         v(3em)
         let img_width = measure(cover_image).width
         let max_img_width = column_width - 2 * frame.dx - 6em
@@ -164,7 +156,7 @@
           cover_image
         }
       }
-      #if update_date != none {
+      if update_date != none {
         v(5em)
         zh_text(10pt)[
           更新于：#update_date.display("[year]年[month padding:none]月[day padding:none]日") ]
@@ -172,21 +164,19 @@
         en_text(8pt)[
           Updated on #update_date.display("[month repr:long] [day], [year]")]
       }
-    ]
-    #let text_dy = (page_height - measure(title_content).height) / 2 - frame.dy - 2em
-    #if title != none or cover_image != none or update_date != none {
+    }
+    let text_dy = (
+      page_height - measure(title_content).height
+    ) / 2 - frame.dy - 2em
+    if title != none or cover_image != none or update_date != none {
       v(text_dy)
       title_content
     }
-  ]
-
-  let end_page = [
-    #colbreak(weak: true)
-  ]
+  }
 
   set list(marker: [#v(.7em)#en_text(16pt, fill: nord3)[☐]])
   columns(
     num_columns,
     gutter: frame.dx * 2 + 4em,
-  )[#title_page #colbreak(weak: true) #body #colbreak(weak: true) #end_page]
+  )[#title_page #colbreak(weak: true) #body]
 }
