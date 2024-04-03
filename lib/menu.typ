@@ -83,7 +83,7 @@
     fill: nord6,
     height: page_height,
     width: page_width,
-    margin: (x: frame.dx + 2em),
+    margin: (x: frame.dx + 2em, y: frame.dy + 2em),
     background: [
       // Seperator lines
       #for i in range(num_columns - 1) {
