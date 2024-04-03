@@ -1,22 +1,24 @@
 #import "nord.typ": *
 
 #let en_text(size, body, fill: nord3, style: "italic") = text(
-  font: "Libre Baskerville",
+  font: "Ysabeau Infant",
   size: size,
   style: style,
   fill: fill,
+  weight: "light",
 )[#body]
 
 #let zh_text(size, body, fill: nord0) = text(
-  font: "STKaiti",
+  font: "LXGW Wenkai",
   size: size,
   fill: fill,
+  weight: "light",
 )[#body]
 
 #let cuisine(name_zh, name_en) = align(center)[
   #v(.5em)
   #zh_text(16pt)[#name_zh] \ #en_text(10pt)[#name_en]
-  #v(.2em)
+  #v(.3em)
 ]
 
 #let item_counter = counter("item")
@@ -27,7 +29,7 @@
     #name_zh #h(1fr)
     // #emoji
   ] \
-  #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]
+  #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]#v(.3em)
 ]
 
 #let caidan(
