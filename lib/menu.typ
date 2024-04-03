@@ -151,20 +151,27 @@
     #set align(center)
     #let title_content = [
       #title
-      #if title_image != none [
-        #v(3em)
-        #set image(width: column_width - 2 * frame.dx - 6em)
-        #title_image
-      ]
-      #if update_time != none [
-        #v(5em)
-        #zh_text(10pt)[
-          更新于：#update_time.display("[year]年[month padding:none]月[day padding:none]日") ] \
-        #en_text(8pt)[
+      #if title_image != none {
+        v(3em)
+        let img_width = measure(title_image).width
+        let max_img_width = column_width - 2 * frame.dx - 6em
+        if img_width.pt() > max_img_width.abs.pt() {
+          set image(width: column_width - 2 * frame.dx - 6em)
+          title_image
+        } else {
+          title_image
+        }
+      }
+      #if update_time != none {
+        v(5em)
+        zh_text(10pt)[
+          更新于：#update_time.display("[year]年[month padding:none]月[day padding:none]日") ]
+        linebreak()
+        en_text(8pt)[
           Updated on #update_time.display("[month repr:long] [day], [year]")]
-      ]
+      }
     ]
-    #let text_dy = (page_height - measure(title_content).height) / 2 - frame.dy
+    #let text_dy = (page_height - measure(title_content).height) / 2 - frame.dy - 2em
     #v(text_dy)
     #title_content
   ]
