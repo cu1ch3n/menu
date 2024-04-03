@@ -32,7 +32,7 @@
 
 #let caidan(
   title: none,
-  title_image: none,
+  cover_image: none,
   update_time: none,
   page_height: 595.28pt,
   page_width: 841.89pt,
@@ -151,15 +151,15 @@
     #set align(center)
     #let title_content = [
       #title
-      #if title_image != none {
+      #if cover_image != none {
         v(3em)
-        let img_width = measure(title_image).width
+        let img_width = measure(cover_image).width
         let max_img_width = column_width - 2 * frame.dx - 6em
         if img_width.pt() > max_img_width.abs.pt() {
           set image(width: column_width - 2 * frame.dx - 6em)
-          title_image
+          cover_image
         } else {
-          title_image
+          cover_image
         }
       }
       #if update_time != none {
