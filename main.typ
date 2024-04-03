@@ -1,9 +1,13 @@
 #import "lib/menu.typ": *
 
 #show: doc => conf(
-  title: [Chen's Private Cuisine],
+  title: [#en_text(22pt, fill: nord0)[Chen's Private Cuisine]],
+  title_image: image("title.png"),
   update_time: datetime.today(),
-  doc
+  page_height: 595.28pt,
+  page_width: 841.89pt,
+  num_columns: 3,
+  doc,
 )
 
 #let peper(n: 1) = [#emoji.pepper.hot] * n
