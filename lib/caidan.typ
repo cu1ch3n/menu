@@ -30,14 +30,14 @@
   #v(-.7em)#h(.14em)#en_text(10pt)[#name_en]
 ]
 
-#let conf(
+#let caidan(
   title: none,
   title_image: none,
   update_time: none,
   page_height: 595.28pt,
   page_width: 841.89pt,
   num_columns: 3,
-  doc,
+  body,
 ) = {
   let frame_font_size = 40pt
   let frame_format = c => text(
@@ -184,5 +184,5 @@
   columns(
     num_columns,
     gutter: frame.dx * 2 + 4em,
-  )[#title_page #colbreak(weak: true) #doc #colbreak(weak: true) #end_page]
+  )[#title_page #colbreak(weak: true) #body #colbreak(weak: true) #end_page]
 }
