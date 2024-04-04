@@ -138,6 +138,7 @@
 - #item[潍坊大虾面][Weifang Shrimp Noodles]
 - #item[葱油拌面][Scallion Oil Noodles]
 - #item[豆角焖面][Braised Noodles w/ Green Beans]
+- #item[番茄通心粉][Hong Kong Style Tomato Macaroni Soup]
 
 #cuisine[小食][Snacks]
 - #item[薯条][French Fries]
