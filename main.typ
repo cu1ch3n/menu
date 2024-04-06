@@ -16,6 +16,7 @@
 - #item[炸萝卜丸子][Chinese Fried Radish Balls]
 - #item[油炸金蝉][Deep Fried Golden Cicada]
 - #item[猪肉白菜炖粉条][Braised Pork Belly w/ Vermicelli Noodles & Napa Cabbage]
+- #item[锅塌豆腐][Guo Ta Tofu]
 
 #cuisine[川菜][Sichuan Cuisine]
 - #item[宫保鸡丁][Gong Bao Chicken]
@@ -65,6 +66,7 @@
 - #item[油焖春笋][Braised Spring Bamboo Shoots]
 - #item[扬州炒饭][Yangzhou Fried Rice]
 - #item[腊肉炒蒜苗][Chinese Bacon Stir-Fry w/ Garlic Sprout]
+- #item[腊肉炒荷兰豆][Chinese Bacon Stir-Fry w/ Snow Peas]
 - #item[茄子烧排骨][Braised Pork Ribs w/ Eggplant]
 - #item[荷兰豆炒腊肠][Snow Peas & Chinese Sausage Stir-Fry]
 - #item[什锦玉米粒 (火腿)][Sautéed Peas & Corn w/ Ham]
