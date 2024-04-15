@@ -17,6 +17,7 @@
 - #item[油炸金蝉][Deep Fried Golden Cicada]
 - #item[猪肉白菜炖粉条][Braised Pork Belly w/ Vermicelli Noodles & Napa Cabbage]
 - #item[锅塌豆腐][Guo Ta Tofu]
+- #item[锅包肉][Fried Pork in Scoop]
 
 #cuisine[川菜][Sichuan Cuisine]
 - #item[宫保鸡丁][Gong Bao Chicken]
