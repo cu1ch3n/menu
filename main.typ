@@ -51,6 +51,8 @@
 - #item[清蒸鲈鱼][Steamed Sea Bass]
 - #item[炸河虾][Fried Shrimps]
 - #item[粉蒸肉][Steamed Pork w/ Rice Flour]
+- #item[黄豆闷猪蹄][Braised Pork Knuckles w/ Soybeans]
+- #item[土豆炖鸡块][Chicken Stew w/ Potatoes]
 
 #cuisine[家常菜][Home-style Cuisine]
 - #item[豆腐脑][Douhua]
