@@ -19,6 +19,11 @@
 - #item[锅塌豆腐][Guo Ta Tofu]
 - #item[锅包肉][Fried Pork in Scoop]
 
+#cuisine[苏菜][Jiangsu cuisine]
+- #item[松鼠桂鱼][Squirrel-shaped Mandarin Fish]
+- #item[扬州炒饭][Yangzhou Fried Rice]
+- #item[香干马兰头][Mixed Kalimeris Indica w/ Tofu]
+
 #cuisine[川菜][Sichuan Cuisine]
 - #item[宫保鸡丁][Gong Bao Chicken]
 - #item[回锅肉][Twice-cooked pork]
@@ -65,7 +70,6 @@
 - #item[豆角肉末][Long Beans Stir-Fry w/ Minced Pork]
 - #item[肉末毛豆][Edamame & Pork Mince Stir-Fry]
 - #item[油焖春笋][Braised Spring Bamboo Shoots]
-- #item[扬州炒饭][Yangzhou Fried Rice]
 - #item[腊肉炒蒜苗][Chinese Bacon Stir-Fry w/ Garlic Sprout]
 - #item[腊肉炒荷兰豆][Chinese Bacon Stir-Fry w/ Snow Peas]
 - #item[茄子烧排骨][Braised Pork Ribs w/ Eggplant]
@@ -107,6 +111,7 @@
 #cuisine[日韩料理][Japanese & Korean Cuisine]
 - #item[韩式拌饭][Bibimbap]
 - #item[照烧肥牛饭][Teriyaki Beef Rice Bowl]
+- #item[韩式辣鸡爪][Korean Spicy Chicken Feet]
 
 #cuisine[东南亚菜][Southeast Asian Cuisine]
 - #item[泰式菠萝炒饭][Thai Pineapple Fried Rice]
@@ -131,7 +136,6 @@
 - #item[凉拌苦菊][Endive Salad]
 - #item[凉拌黄瓜][Shredded Cucumber w/ Sauce]
 - #item[皮蛋豆腐][Chilled Tofu w/ Century Egg]
-- #item[香干马兰头][Mixed Kalimeris Indica w/ Tofu]
 
 #cuisine[面食][Dumplings & Noodles]
 - #item[猪肉大葱水饺][Jiaozi Stuffed w/ Pork & Scallion]
