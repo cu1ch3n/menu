@@ -18,9 +18,10 @@
 - #item[猪肉白菜炖粉条][Braised Pork Belly w/ Vermicelli Noodles & Napa Cabbage]
 - #item[锅塌豆腐][Guo Ta Tofu]
 - #item[锅包肉][Fried Pork in Scoop]
+- #item[临沂炒鸡][Linyi-Style Stir-Fried Chicken]
 
 #cuisine[苏菜][Jiangsu cuisine]
-- #item[松鼠桂鱼][Squirrel-shaped Mandarin Fish]
+- #item[松鼠鳜鱼][Squirrel-shaped Mandarin Fish]
 - #item[扬州炒饭][Yangzhou Fried Rice]
 - #item[香干马兰头][Mixed Kalimeris Indica w/ Tofu]
 
@@ -28,6 +29,7 @@
 - #item[宫保鸡丁][Gong Bao Chicken]
 - #item[回锅肉][Twice-cooked pork]
 - #item[麻婆豆腐][Mapo Tofu]
+- #item[小酥肉][Crispy Pork]
 
 #cuisine[粤菜][Cantonese Cuisine]
 - #item[腊味煲仔饭][Sausage Claypot Rice]
@@ -53,10 +55,11 @@
 - #item[粉蒸肉][Steamed Pork w/ Rice Flour]
 - #item[黄豆焖猪蹄][Braised Pork Knuckles w/ Soybeans]
 - #item[土豆炖鸡块][Chicken Stew w/ Potatoes]
+- #item[牛肉干][Beef Jerky]
 
 #cuisine[家常菜][Home-style Cuisine]
 - #item[豆腐脑][Douhua]
-- #item[蒜蓉秋葵][Galic Okra]
+- #item[蒜蓉秋葵][Garlic Okra]
 - #item[手撕包菜][Hand-Torn Cabbage]
 - #item[炒紫甘蓝][Purple Cabbage Stir-Fry]
 - #item[清炒菠菜][Spinach Stir-Fry w/ Garlic]
@@ -86,7 +89,7 @@
 
 #cuisine[汤菜][Soup]
 - #item[清炖羊肉汤][Mutton Soup]
-- #item[清炖鸡汤][Chincken Soup]
+- #item[清炖鸡汤][Chicken Soup]
 - #item[松茸鸡蛋汤][Matsutake Egg Soup]
 - #item[冬瓜花甲汤][Winter Melon Clam Soup]
 - #item[鱼头豆腐汤][Milky Fish Soup w/ Tofu]
@@ -141,7 +144,9 @@
 
 #cuisine[面食][Dumplings & Noodles]
 - #item[猪肉大葱水饺][Jiaozi Stuffed w/ Pork & Scallion]
+- #item[猪肉白菜水饺][Jiaozi Stuffed w/ Pork & Napa Cabbage]
 - #item[韭菜鸡蛋水饺][Jiaozi Stuffed w/ Chives & Eggs]
+- #item[羊肉水饺][Jiaozi Stuffed w/ Goat Meat]
 - #item[鸡蛋手擀面][Handmade Noodles w/ Eggs]
 - #item[红烧牛肉面][Braised Beef Noodle Soup]
 - #item[潍坊大虾面][Weifang Shrimp Noodles]
@@ -164,5 +169,13 @@
 
 #cuisine[饮品][Drinks]
 - #item[港式冻柠茶][Hong Kong Style Iced Lemon Tea]
+
+#cuisine[鸡尾酒][Cocktails]
 - #item[莫吉托][Mojito]
-- #item[猕猴桃莫吉托][Kiwi Mojito]
+- #item[自由古巴][Cuba Libre]
+- #item[得其利][Daiquiri]
+- #item[玛格丽特][Margarita]
+- #item[龙舌兰日出][Tequila Sunrise]
+- #item[帕洛玛][Paloma]
+- #item[破冰船][Ice Breaker]
+- #item[教父][Godfather]
