@@ -36,6 +36,8 @@
 - #item[脆皮乳鸽][Crispy Pigeon]
 - #item[梅菜扣肉][Braised Pork w/ Preserved Vegetable]
 - #item[葱油鸡][Scallion Oil Chicken]
+- #item[鲍鱼捞饭][Abalone Rice]
+- #item[椰子鸡火锅][Hainan Coconut Chicken Hotpot]
 
 #cuisine[家常菜 (荤)][Home-style Cuisine (Meaty)]
 - #item[蒜香鸡翅][Garlic Chicken Wings]
@@ -112,6 +114,7 @@
 - #item[烤茄子][Roasted Eggplant]
 - #item[蒜蓉粉丝生蚝][Steamed Oysters w/ Garlic Vermicelli]
 - #item[蒜蓉粉丝蛏子][Steamed Razor Clam w/ Garlic Vermicelli]
+- #item[海鲜什锦炒饭][Seafood Mixed Fried Rice]
 
 #cuisine[日韩料理][Japanese & Korean Cuisine]
 - #item[韩式拌饭][Bibimbap]
